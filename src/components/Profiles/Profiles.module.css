@@ -1,0 +1,83 @@
+.userProfile {
+  background: #2cb5a0;
+  width: 13rem;
+  padding: 25px 20px;
+  border: 4px solid #7cdacc;
+  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+  margin: 20px auto;
+}
+
+.userProfile:hover {
+  transform: translateY(-10px);
+}
+
+.userName {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.userName span {
+  display: block;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+/* Styles for phone number */
+.userPhone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.userPhone::before {
+  content: "\f095"; /* Font Awesome phone icon (you might need to include Font Awesome) */
+  font-family: "Font Awesome 5 Free"; /* Or your Font Awesome version */
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+/* Styles for email */
+.userEmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.userEmail::before {
+  content: "\f0e0"; /* Font Awesome envelope icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+/* Styles for buttons */
+.userProfile button {
+  background: #7cdacc;
+  border: none;
+  padding: 8px 15px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  color: #2c3e50;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.userProfile button:hover {
+  background: #a8dadc;
+}
+
+.userProfile button:active {
+  transform: scale(0.95);
+}
